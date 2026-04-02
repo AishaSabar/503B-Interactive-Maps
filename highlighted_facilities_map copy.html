@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f0a8de1a55e8d433b6149039ef850c0b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f0a8de1a55e8d433b6149039ef850c0b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f0a8de1a55e8d433b6149039ef850c0b = L.map(
+                "map_f0a8de1a55e8d433b6149039ef850c0b",
+                {
+                    center: [40.5, -74.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_74461b1043e2a11c411d58887266ae2a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_74461b1043e2a11c411d58887266ae2a.addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+            var marker_c1121e9a864a6e088cd8d34e6900eb6d = L.marker(
+                [41.4829, -73.4096],
+                {
+}
+            ).addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+        var popup_292ffe282eaa0d264ad2c3bbe5d6f9a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8b7740aed3758f58d3acb3a715298ab = $(`<div id="html_f8b7740aed3758f58d3acb3a715298ab" style="width: 100.0%; height: 100.0%;">Brookfield Medical/Surgical Supply, Inc. (Brookfield, CT)</div>`)[0];
+                popup_292ffe282eaa0d264ad2c3bbe5d6f9a4.setContent(html_f8b7740aed3758f58d3acb3a715298ab);
+            
+        
+
+        marker_c1121e9a864a6e088cd8d34e6900eb6d.bindPopup(popup_292ffe282eaa0d264ad2c3bbe5d6f9a4)
+        ;
+
+        
+    
+    
+            var marker_bc1dbdd6ebe7757b5f9c3ffee1971249 = L.marker(
+                [39.5137, -74.9274],
+                {
+}
+            ).addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+        var popup_61bf9e885774bfc5a60c15f9b0c92fc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c4a086d9931c799253cc259a10d475a = $(`<div id="html_0c4a086d9931c799253cc259a10d475a" style="width: 100.0%; height: 100.0%;">Leiters Health (Buena, NJ)</div>`)[0];
+                popup_61bf9e885774bfc5a60c15f9b0c92fc7.setContent(html_0c4a086d9931c799253cc259a10d475a);
+            
+        
+
+        marker_bc1dbdd6ebe7757b5f9c3ffee1971249.bindPopup(popup_61bf9e885774bfc5a60c15f9b0c92fc7)
+        ;
+
+        
+    
+    
+            var marker_9b12208bb65eaebd2c59574df52d046f = L.marker(
+                [42.6526, -73.7562],
+                {
+}
+            ).addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+        var popup_568256d266875bf7ed2420a21a1e65f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c15e41e208d87d74fcda5f0b4aa7980f = $(`<div id="html_c15e41e208d87d74fcda5f0b4aa7980f" style="width: 100.0%; height: 100.0%;">Galaxy Pharmaceuticals, LLC (Albany, NY)</div>`)[0];
+                popup_568256d266875bf7ed2420a21a1e65f0.setContent(html_c15e41e208d87d74fcda5f0b4aa7980f);
+            
+        
+
+        marker_9b12208bb65eaebd2c59574df52d046f.bindPopup(popup_568256d266875bf7ed2420a21a1e65f0)
+        ;
+
+        
+    
+    
+            var marker_544f9871ebcf16164fef62ece0bb8e15 = L.marker(
+                [40.3768, -74.5115],
+                {
+}
+            ).addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+        var popup_6ea5794dc45b4998b8ffc360a67b20cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9f5804f92dfcbc1e2b63a1dd63b4b66 = $(`<div id="html_f9f5804f92dfcbc1e2b63a1dd63b4b66" style="width: 100.0%; height: 100.0%;">Hikma Injectables USA Inc. (Dayton, NJ)</div>`)[0];
+                popup_6ea5794dc45b4998b8ffc360a67b20cf.setContent(html_f9f5804f92dfcbc1e2b63a1dd63b4b66);
+            
+        
+
+        marker_544f9871ebcf16164fef62ece0bb8e15.bindPopup(popup_6ea5794dc45b4998b8ffc360a67b20cf)
+        ;
+
+        
+    
+    
+            var marker_634e055ff97098c1afaa44ad1c97d393 = L.marker(
+                [39.9348, -75.0307],
+                {
+}
+            ).addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+        var popup_6baf398f455b01a13766f0e58a8e4dd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_445c2898745909425c68871345c1b00c = $(`<div id="html_445c2898745909425c68871345c1b00c" style="width: 100.0%; height: 100.0%;">Hikma Pharmaceuticals USA Inc. (Cherry Hill, NJ)</div>`)[0];
+                popup_6baf398f455b01a13766f0e58a8e4dd3.setContent(html_445c2898745909425c68871345c1b00c);
+            
+        
+
+        marker_634e055ff97098c1afaa44ad1c97d393.bindPopup(popup_6baf398f455b01a13766f0e58a8e4dd3)
+        ;
+
+        
+    
+    
+            var marker_490b2f33095eb163d13e1faea3acf80a = L.marker(
+                [40.4976, -74.4885],
+                {
+}
+            ).addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+        var popup_b28b744e07be23622c3f67d9684ead54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d30994614ae7e1d96b57a44e10b47d81 = $(`<div id="html_d30994614ae7e1d96b57a44e10b47d81" style="width: 100.0%; height: 100.0%;">Hyalo Technologies LLC (Somerset, NJ)</div>`)[0];
+                popup_b28b744e07be23622c3f67d9684ead54.setContent(html_d30994614ae7e1d96b57a44e10b47d81);
+            
+        
+
+        marker_490b2f33095eb163d13e1faea3acf80a.bindPopup(popup_b28b744e07be23622c3f67d9684ead54)
+        ;
+
+        
+    
+    
+            var marker_52de944bbb7ace0abc30cff004702c7a = L.marker(
+                [40.8759, -74.6585],
+                {
+}
+            ).addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+        var popup_a68287ce6a5bf0d9a60b31036f192fb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c22c815448d4c3e9be451b6a342d6a4 = $(`<div id="html_5c22c815448d4c3e9be451b6a342d6a4" style="width: 100.0%; height: 100.0%;">Imprimis NJOF, LLC (Ledgewood, NJ)</div>`)[0];
+                popup_a68287ce6a5bf0d9a60b31036f192fb9.setContent(html_5c22c815448d4c3e9be451b6a342d6a4);
+            
+        
+
+        marker_52de944bbb7ace0abc30cff004702c7a.bindPopup(popup_a68287ce6a5bf0d9a60b31036f192fb9)
+        ;
+
+        
+    
+    
+            var marker_11cec0dd4de5fe8be0bfc9c7c4e14729 = L.marker(
+                [40.6984, -74.4015],
+                {
+}
+            ).addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+        var popup_ba4e7111482d58a31b76474598c73c86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3bd86966b1d608c2b6af7976a46bad2 = $(`<div id="html_e3bd86966b1d608c2b6af7976a46bad2" style="width: 100.0%; height: 100.0%;">Molecular PharmaGroup (New Providence, NJ)</div>`)[0];
+                popup_ba4e7111482d58a31b76474598c73c86.setContent(html_e3bd86966b1d608c2b6af7976a46bad2);
+            
+        
+
+        marker_11cec0dd4de5fe8be0bfc9c7c4e14729.bindPopup(popup_ba4e7111482d58a31b76474598c73c86)
+        ;
+
+        
+    
+    
+            var marker_187cb23bb36dded7093a4bcc381930fa = L.marker(
+                [43.02, -78.87],
+                {
+}
+            ).addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+        var popup_8acc671cc1df663ebd990d22459b7375 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7d0dc20524207cec2e3ae8076080ea0 = $(`<div id="html_d7d0dc20524207cec2e3ae8076080ea0" style="width: 100.0%; height: 100.0%;">Pine Pharmaceuticals, LLC (Tonawanda, NY)</div>`)[0];
+                popup_8acc671cc1df663ebd990d22459b7375.setContent(html_d7d0dc20524207cec2e3ae8076080ea0);
+            
+        
+
+        marker_187cb23bb36dded7093a4bcc381930fa.bindPopup(popup_8acc671cc1df663ebd990d22459b7375)
+        ;
+
+        
+    
+    
+            var marker_ef792bd347198b901673aae90002ba3c = L.marker(
+                [40.6554, -75.0907],
+                {
+}
+            ).addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+        var popup_190979649a2cd6633059d4ff4bc600fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c1ee21485d33e270238b86480bbc4c9 = $(`<div id="html_3c1ee21485d33e270238b86480bbc4c9" style="width: 100.0%; height: 100.0%;">Quva Pharma, Inc. (Bloomsbury, NJ)</div>`)[0];
+                popup_190979649a2cd6633059d4ff4bc600fd.setContent(html_3c1ee21485d33e270238b86480bbc4c9);
+            
+        
+
+        marker_ef792bd347198b901673aae90002ba3c.bindPopup(popup_190979649a2cd6633059d4ff4bc600fd)
+        ;
+
+        
+    
+    
+            var marker_824b37be7be30cf5727b0d414b431fda = L.marker(
+                [40.8532, -74.8291],
+                {
+}
+            ).addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+        var popup_d6ddbdc15579a8e2d896a00f2684c7ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7df07e798d4a7fdfd2a499437f921f2f = $(`<div id="html_7df07e798d4a7fdfd2a499437f921f2f" style="width: 100.0%; height: 100.0%;">Sankav Pharmaceuticals, LLC (Hackettstown, NJ)</div>`)[0];
+                popup_d6ddbdc15579a8e2d896a00f2684c7ca.setContent(html_7df07e798d4a7fdfd2a499437f921f2f);
+            
+        
+
+        marker_824b37be7be30cf5727b0d414b431fda.bindPopup(popup_d6ddbdc15579a8e2d896a00f2684c7ca)
+        ;
+
+        
+    
+    
+            var marker_97a176bf6bf664bd71ea25bbec5e093f = L.marker(
+                [41.8526, -72.6437],
+                {
+}
+            ).addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+        var popup_457b82452c93f9ebe365e73b31342752 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51a17d4ede08ef9a6693732b74780592 = $(`<div id="html_51a17d4ede08ef9a6693732b74780592" style="width: 100.0%; height: 100.0%;">SCA Pharmaceuticals (Windsor, CT)</div>`)[0];
+                popup_457b82452c93f9ebe365e73b31342752.setContent(html_51a17d4ede08ef9a6693732b74780592);
+            
+        
+
+        marker_97a176bf6bf664bd71ea25bbec5e093f.bindPopup(popup_457b82452c93f9ebe365e73b31342752)
+        ;
+
+        
+    
+    
+            var marker_ac8065561c0c7a87e8259c40eacadbe0 = L.marker(
+                [39.934, -74.89],
+                {
+}
+            ).addTo(map_f0a8de1a55e8d433b6149039ef850c0b);
+        
+    
+        var popup_6722a3fedc1ee8be993ebc691785e312 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a225b36f59e19272d8a87e01c5e89b84 = $(`<div id="html_a225b36f59e19272d8a87e01c5e89b84" style="width: 100.0%; height: 100.0%;">Stokes Healthcare Inc. (Epicur Pharma) (Mt. Laurel, NJ)</div>`)[0];
+                popup_6722a3fedc1ee8be993ebc691785e312.setContent(html_a225b36f59e19272d8a87e01c5e89b84);
+            
+        
+
+        marker_ac8065561c0c7a87e8259c40eacadbe0.bindPopup(popup_6722a3fedc1ee8be993ebc691785e312)
+        ;
+
+        
+    
+</script>
+</html>

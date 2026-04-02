@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0185a35ae4bd330a98f60daa54a8a959 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0185a35ae4bd330a98f60daa54a8a959" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0185a35ae4bd330a98f60daa54a8a959 = L.map(
+                "map_0185a35ae4bd330a98f60daa54a8a959",
+                {
+                    center: [40.5, -74.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_66985a764c080eeca21b75de43f9c7f9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_66985a764c080eeca21b75de43f9c7f9.addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+            var circle_marker_f0fb73ce51a740c487dbb02b8b919bde = L.circleMarker(
+                [41.4829, -73.4096],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+        var popup_9d7d27e803cd144719ac210e08c2f499 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b25e315d93971389e016244f99834274 = $(`<div id="html_b25e315d93971389e016244f99834274" style="width: 100.0%; height: 100.0%;">Facility: Brookfield Medical/Surgical Supply, Inc.</div>`)[0];
+                popup_9d7d27e803cd144719ac210e08c2f499.setContent(html_b25e315d93971389e016244f99834274);
+            
+        
+
+        circle_marker_f0fb73ce51a740c487dbb02b8b919bde.bindPopup(popup_9d7d27e803cd144719ac210e08c2f499)
+        ;
+
+        
+    
+    
+            var circle_marker_75a5933348883f94ef569a64a1314f1d = L.circleMarker(
+                [39.5137, -74.9274],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+        var popup_69dc5c3e515bcc9880e2dbfe632db634 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96b34fccd0ff00bad060426b46dac4ab = $(`<div id="html_96b34fccd0ff00bad060426b46dac4ab" style="width: 100.0%; height: 100.0%;">Facility: Leiters Health</div>`)[0];
+                popup_69dc5c3e515bcc9880e2dbfe632db634.setContent(html_96b34fccd0ff00bad060426b46dac4ab);
+            
+        
+
+        circle_marker_75a5933348883f94ef569a64a1314f1d.bindPopup(popup_69dc5c3e515bcc9880e2dbfe632db634)
+        ;
+
+        
+    
+    
+            var circle_marker_012848ded3132605744d732071f4d75e = L.circleMarker(
+                [42.6526, -73.7562],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+        var popup_999d96470d2e53e878908407c2bb9714 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16ffc56165897f05587f6211c83daf41 = $(`<div id="html_16ffc56165897f05587f6211c83daf41" style="width: 100.0%; height: 100.0%;">Facility: Galaxy Pharmaceuticals, LLC</div>`)[0];
+                popup_999d96470d2e53e878908407c2bb9714.setContent(html_16ffc56165897f05587f6211c83daf41);
+            
+        
+
+        circle_marker_012848ded3132605744d732071f4d75e.bindPopup(popup_999d96470d2e53e878908407c2bb9714)
+        ;
+
+        
+    
+    
+            var circle_marker_4221dde48930ee340fd10c2f938ad1ff = L.circleMarker(
+                [40.3768, -74.5115],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+        var popup_ec9e06451048878723fc1d8baf760491 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be13b112e8d791b72a7f0ad2d1340ced = $(`<div id="html_be13b112e8d791b72a7f0ad2d1340ced" style="width: 100.0%; height: 100.0%;">Facility: Hikma Injectables USA Inc.</div>`)[0];
+                popup_ec9e06451048878723fc1d8baf760491.setContent(html_be13b112e8d791b72a7f0ad2d1340ced);
+            
+        
+
+        circle_marker_4221dde48930ee340fd10c2f938ad1ff.bindPopup(popup_ec9e06451048878723fc1d8baf760491)
+        ;
+
+        
+    
+    
+            var circle_marker_ed54aae7f64498540544f13751ff32b9 = L.circleMarker(
+                [39.9348, -75.0307],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+        var popup_f63a1847b6ecbeae830e4f1bc33c085c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8035cd1f82cc57c303f33c4e3b6d719d = $(`<div id="html_8035cd1f82cc57c303f33c4e3b6d719d" style="width: 100.0%; height: 100.0%;">Facility: Hikma Pharmaceuticals USA Inc.</div>`)[0];
+                popup_f63a1847b6ecbeae830e4f1bc33c085c.setContent(html_8035cd1f82cc57c303f33c4e3b6d719d);
+            
+        
+
+        circle_marker_ed54aae7f64498540544f13751ff32b9.bindPopup(popup_f63a1847b6ecbeae830e4f1bc33c085c)
+        ;
+
+        
+    
+    
+            var circle_marker_fd0c259b01318c528430db9021e7c4a8 = L.circleMarker(
+                [40.4976, -74.4885],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+        var popup_3c82bf0160c33529cc58f51be529da04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52b0f17dafad856f18faf80bacd44a86 = $(`<div id="html_52b0f17dafad856f18faf80bacd44a86" style="width: 100.0%; height: 100.0%;">Facility: Hyalo Technologies LLC</div>`)[0];
+                popup_3c82bf0160c33529cc58f51be529da04.setContent(html_52b0f17dafad856f18faf80bacd44a86);
+            
+        
+
+        circle_marker_fd0c259b01318c528430db9021e7c4a8.bindPopup(popup_3c82bf0160c33529cc58f51be529da04)
+        ;
+
+        
+    
+    
+            var circle_marker_c67e170aa982d04683308a1c0a5b8d19 = L.circleMarker(
+                [40.8759, -74.6585],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+        var popup_5efef08c9d670b22618866f6ae5915fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce7808665dc54c6d1c62e72e8ebcc084 = $(`<div id="html_ce7808665dc54c6d1c62e72e8ebcc084" style="width: 100.0%; height: 100.0%;">Facility: Imprimis NJOF, LLC</div>`)[0];
+                popup_5efef08c9d670b22618866f6ae5915fb.setContent(html_ce7808665dc54c6d1c62e72e8ebcc084);
+            
+        
+
+        circle_marker_c67e170aa982d04683308a1c0a5b8d19.bindPopup(popup_5efef08c9d670b22618866f6ae5915fb)
+        ;
+
+        
+    
+    
+            var circle_marker_641cf7d17a50e1d64e36546b74b77063 = L.circleMarker(
+                [40.6984, -74.4015],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+        var popup_bf9339f6514b44aeb362e1cc160e387b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_179b8b49e776e61ab80e00d92e5879a8 = $(`<div id="html_179b8b49e776e61ab80e00d92e5879a8" style="width: 100.0%; height: 100.0%;">Facility: Molecular PharmaGroup</div>`)[0];
+                popup_bf9339f6514b44aeb362e1cc160e387b.setContent(html_179b8b49e776e61ab80e00d92e5879a8);
+            
+        
+
+        circle_marker_641cf7d17a50e1d64e36546b74b77063.bindPopup(popup_bf9339f6514b44aeb362e1cc160e387b)
+        ;
+
+        
+    
+    
+            var circle_marker_549e62c9de216508b8a286bd0359ea88 = L.circleMarker(
+                [43.02, -78.87],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+        var popup_227115dd9554496cc9d84a9011e7b5fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_daa0848983b2d2448f89edffef5d11cc = $(`<div id="html_daa0848983b2d2448f89edffef5d11cc" style="width: 100.0%; height: 100.0%;">Facility: Pine Pharmaceuticals, LLC</div>`)[0];
+                popup_227115dd9554496cc9d84a9011e7b5fa.setContent(html_daa0848983b2d2448f89edffef5d11cc);
+            
+        
+
+        circle_marker_549e62c9de216508b8a286bd0359ea88.bindPopup(popup_227115dd9554496cc9d84a9011e7b5fa)
+        ;
+
+        
+    
+    
+            var circle_marker_abb273017c0b1ca8354feb4ff8599281 = L.circleMarker(
+                [40.6554, -75.0907],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+        var popup_cd7062d0d5f794cc60a649e267689ed2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5594d2feff8e3656783514cda2ec48c = $(`<div id="html_f5594d2feff8e3656783514cda2ec48c" style="width: 100.0%; height: 100.0%;">Facility: Quva Pharma, Inc.</div>`)[0];
+                popup_cd7062d0d5f794cc60a649e267689ed2.setContent(html_f5594d2feff8e3656783514cda2ec48c);
+            
+        
+
+        circle_marker_abb273017c0b1ca8354feb4ff8599281.bindPopup(popup_cd7062d0d5f794cc60a649e267689ed2)
+        ;
+
+        
+    
+    
+            var circle_marker_d9e59f7b1bc412c499ac82dd64d33eee = L.circleMarker(
+                [40.8532, -74.8291],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+        var popup_30347ef0b649e12d697b6ca36e553c5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_494adc625ef30259861fc73abeafe9f5 = $(`<div id="html_494adc625ef30259861fc73abeafe9f5" style="width: 100.0%; height: 100.0%;">Facility: Sankav Pharmaceuticals, LLC</div>`)[0];
+                popup_30347ef0b649e12d697b6ca36e553c5a.setContent(html_494adc625ef30259861fc73abeafe9f5);
+            
+        
+
+        circle_marker_d9e59f7b1bc412c499ac82dd64d33eee.bindPopup(popup_30347ef0b649e12d697b6ca36e553c5a)
+        ;
+
+        
+    
+    
+            var circle_marker_acb35be9dae6ce8ffd2f3b616c04c921 = L.circleMarker(
+                [41.8526, -72.6437],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+        var popup_fe077360b2590d093e1d791cbcf7fc54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b110d052bd03189abb34b9132c14b95f = $(`<div id="html_b110d052bd03189abb34b9132c14b95f" style="width: 100.0%; height: 100.0%;">Facility: SCA Pharmaceuticals</div>`)[0];
+                popup_fe077360b2590d093e1d791cbcf7fc54.setContent(html_b110d052bd03189abb34b9132c14b95f);
+            
+        
+
+        circle_marker_acb35be9dae6ce8ffd2f3b616c04c921.bindPopup(popup_fe077360b2590d093e1d791cbcf7fc54)
+        ;
+
+        
+    
+    
+            var circle_marker_d420b38fcf3b0490daec02060c6da8e0 = L.circleMarker(
+                [39.934, -74.89],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+        var popup_04b3b31a95aca37f44f2023875714440 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d0d792205574285358fcebc95395674 = $(`<div id="html_4d0d792205574285358fcebc95395674" style="width: 100.0%; height: 100.0%;">Facility: Stokes Healthcare Inc.</div>`)[0];
+                popup_04b3b31a95aca37f44f2023875714440.setContent(html_4d0d792205574285358fcebc95395674);
+            
+        
+
+        circle_marker_d420b38fcf3b0490daec02060c6da8e0.bindPopup(popup_04b3b31a95aca37f44f2023875714440)
+        ;
+
+        
+    
+    
+            var marker_22e7f5fcd587d788edb3b37f947060f1 = L.marker(
+                [40.7901, -73.9533],
+                {
+}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+            var icon_5c2f29d4b862c0c2df96fed20560efa4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8fdab2ca5be3790ab208ac4939dde16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3de5407fbd83c94286e3ccc153ad7def = $(`<div id="html_3de5407fbd83c94286e3ccc153ad7def" style="width: 100.0%; height: 100.0%;">Hospital System: Mount Sinai Health System</div>`)[0];
+                popup_c8fdab2ca5be3790ab208ac4939dde16.setContent(html_3de5407fbd83c94286e3ccc153ad7def);
+            
+        
+
+        marker_22e7f5fcd587d788edb3b37f947060f1.bindPopup(popup_c8fdab2ca5be3790ab208ac4939dde16)
+        ;
+
+        
+    
+    
+                marker_22e7f5fcd587d788edb3b37f947060f1.setIcon(icon_5c2f29d4b862c0c2df96fed20560efa4);
+            
+    
+            var marker_f1ca91ac0e3321ed2991d3a20e9c85d8 = L.marker(
+                [40.742, -73.9748],
+                {
+}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+            var icon_c93d339da43aac710cd2c42be46d1612 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72968c44a7c61f3db0f97be36cd8108d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5af7b9fc850ec5606798088370e679a6 = $(`<div id="html_5af7b9fc850ec5606798088370e679a6" style="width: 100.0%; height: 100.0%;">Hospital System: NYU Langone Health</div>`)[0];
+                popup_72968c44a7c61f3db0f97be36cd8108d.setContent(html_5af7b9fc850ec5606798088370e679a6);
+            
+        
+
+        marker_f1ca91ac0e3321ed2991d3a20e9c85d8.bindPopup(popup_72968c44a7c61f3db0f97be36cd8108d)
+        ;
+
+        
+    
+    
+                marker_f1ca91ac0e3321ed2991d3a20e9c85d8.setIcon(icon_c93d339da43aac710cd2c42be46d1612);
+            
+    
+            var marker_b3d382cb1b740064aecfa983f5857ffa = L.marker(
+                [40.8859, -74.0435],
+                {
+}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+            var icon_1db6aa8b387593aebbb43f2d5e1dd27c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7a48461551f671e3113eb7b6d34848b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ba65345233deb12886542bbce4b2f44 = $(`<div id="html_5ba65345233deb12886542bbce4b2f44" style="width: 100.0%; height: 100.0%;">Hospital System: Hackensack Meridian Health</div>`)[0];
+                popup_a7a48461551f671e3113eb7b6d34848b.setContent(html_5ba65345233deb12886542bbce4b2f44);
+            
+        
+
+        marker_b3d382cb1b740064aecfa983f5857ffa.bindPopup(popup_a7a48461551f671e3113eb7b6d34848b)
+        ;
+
+        
+    
+    
+                marker_b3d382cb1b740064aecfa983f5857ffa.setIcon(icon_1db6aa8b387593aebbb43f2d5e1dd27c);
+            
+    
+            var marker_a1aa7e6234b7167a427f1eecf2af5681 = L.marker(
+                [40.7411, -74.1724],
+                {
+}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+            var icon_df1f3acb6dcb7d4b0f8355fe1a38cfc9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ef248453b9f9643e7e56ac38c3cbe8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5e971e5e07f94f075e4b9d166f3a6aa = $(`<div id="html_d5e971e5e07f94f075e4b9d166f3a6aa" style="width: 100.0%; height: 100.0%;">Hospital System: RWJBarnabas Health</div>`)[0];
+                popup_0ef248453b9f9643e7e56ac38c3cbe8a.setContent(html_d5e971e5e07f94f075e4b9d166f3a6aa);
+            
+        
+
+        marker_a1aa7e6234b7167a427f1eecf2af5681.bindPopup(popup_0ef248453b9f9643e7e56ac38c3cbe8a)
+        ;
+
+        
+    
+    
+                marker_a1aa7e6234b7167a427f1eecf2af5681.setIcon(icon_df1f3acb6dcb7d4b0f8355fe1a38cfc9);
+            
+    
+            var marker_de9cb435b707796b2ef7eca4eb68ba9a = L.marker(
+                [39.9496, -75.1937],
+                {
+}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+            var icon_a2b0a9124c9734f94ee9c78b30d5614d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_decfb10c414078c03eb835ab5a01b16e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a43c46acf00f7e483f1d6254294f2fe = $(`<div id="html_7a43c46acf00f7e483f1d6254294f2fe" style="width: 100.0%; height: 100.0%;">Hospital System: Penn Medicine</div>`)[0];
+                popup_decfb10c414078c03eb835ab5a01b16e.setContent(html_7a43c46acf00f7e483f1d6254294f2fe);
+            
+        
+
+        marker_de9cb435b707796b2ef7eca4eb68ba9a.bindPopup(popup_decfb10c414078c03eb835ab5a01b16e)
+        ;
+
+        
+    
+    
+                marker_de9cb435b707796b2ef7eca4eb68ba9a.setIcon(icon_a2b0a9124c9734f94ee9c78b30d5614d);
+            
+    
+            var marker_b67a3cc3c512d5b027d6bb9f1f76a53e = L.marker(
+                [41.3083, -72.9279],
+                {
+}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+            var icon_267a6a38de87782064478db16716261d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_748bce2e23f0ee680504624a88601dee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb146f3713510bec5bc994a484667de4 = $(`<div id="html_cb146f3713510bec5bc994a484667de4" style="width: 100.0%; height: 100.0%;">Hospital System: Yale New Haven Health</div>`)[0];
+                popup_748bce2e23f0ee680504624a88601dee.setContent(html_cb146f3713510bec5bc994a484667de4);
+            
+        
+
+        marker_b67a3cc3c512d5b027d6bb9f1f76a53e.bindPopup(popup_748bce2e23f0ee680504624a88601dee)
+        ;
+
+        
+    
+    
+                marker_b67a3cc3c512d5b027d6bb9f1f76a53e.setIcon(icon_267a6a38de87782064478db16716261d);
+            
+    
+            var marker_90c8cff54ba91969cefd86b096578eee = L.marker(
+                [40.756, -73.7003],
+                {
+}
+            ).addTo(map_0185a35ae4bd330a98f60daa54a8a959);
+        
+    
+            var icon_1ac743ad495c80af989669f79fc15ad8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3d52536277efdb463bbb63365698cb52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10ca30bbf2792e99e6b657ed4d662885 = $(`<div id="html_10ca30bbf2792e99e6b657ed4d662885" style="width: 100.0%; height: 100.0%;">Hospital System: Northwell Health</div>`)[0];
+                popup_3d52536277efdb463bbb63365698cb52.setContent(html_10ca30bbf2792e99e6b657ed4d662885);
+            
+        
+
+        marker_90c8cff54ba91969cefd86b096578eee.bindPopup(popup_3d52536277efdb463bbb63365698cb52)
+        ;
+
+        
+    
+    
+                marker_90c8cff54ba91969cefd86b096578eee.setIcon(icon_1ac743ad495c80af989669f79fc15ad8);
+            
+</script>
+</html>
