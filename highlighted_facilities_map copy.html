@@ -43,7 +43,26 @@
                 left:0;
                 }
             </style>
+<style>
+  body { margin: 0; font-family: Arial, sans-serif; }
 
+  nav {
+    background-color: #1f2937;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #60a5fa;
+  }
+</style>
             <script>
                 L_NO_TOUCH = false;
                 L_DISABLE_3D = false;
@@ -53,7 +72,14 @@
 </head>
 <body>
     
-    
+    <nav>
+  <span style="color:white; font-weight:bold; margin-right:20px;">
+    503B Dashboard
+  </span>
+  <a href="index.html"> Home </a>
+  <a href="final_map_with_hospitals_copy.html"> Interactive 503B Map With Facilities and Hospitals </a>
+  <a href="highlighted-facilities-map.html"> Interactive Map of 503B Facilities in Tri-State Area </a>
+</nav>
             <div class="folium-map" id="map_f0a8de1a55e8d433b6149039ef850c0b" ></div>
         
 </body>
